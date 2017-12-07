@@ -1,0 +1,33 @@
+.App {
+  color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btc {
+  background-color: #ffb119;
+  flex: 1;
+}
+
+.eth {
+  background-color: #6f7cba;
+  flex: 1;
+}
+
+.ltc {
+  background-color: #b5b5b5;
+  flex: 1;
+}
+
+.price {
+  font-size: 10vw;
+}
